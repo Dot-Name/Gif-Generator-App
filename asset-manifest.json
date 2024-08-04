@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Gif-Generator-App/static/css/main.92c39177.css",
-    "main.js": "/Gif-Generator-App/static/js/main.a722f03e.js",
+    "main.css": "/Gif-Generator-App/static/css/main.36385d86.css",
+    "main.js": "/Gif-Generator-App/static/js/main.d907efa2.js",
     "index.html": "/Gif-Generator-App/index.html",
-    "main.92c39177.css.map": "/Gif-Generator-App/static/css/main.92c39177.css.map",
-    "main.a722f03e.js.map": "/Gif-Generator-App/static/js/main.a722f03e.js.map"
+    "main.36385d86.css.map": "/Gif-Generator-App/static/css/main.36385d86.css.map",
+    "main.d907efa2.js.map": "/Gif-Generator-App/static/js/main.d907efa2.js.map"
   },
   "entrypoints": [
-    "static/css/main.92c39177.css",
-    "static/js/main.a722f03e.js"
+    "static/css/main.36385d86.css",
+    "static/js/main.d907efa2.js"
   ]
 }
