@@ -4,7 +4,7 @@ import useGif from "../hooks/useGif";
 function Tag(){
     const [tag, setTag] = useState("Cats");
     const {gif, loading, fetchData} = useGif(tag);
-    return(
+    return( 
         <div className="flex flex-col items-center justify-center w-full gap-4 py-4 overflow-hidden bg-blue-400 border-2 border-gray-500 lg:w-1/2 aspect-auto rounded-2xl">
 
         <h1 className="text-xl font-bold text-center underline uppercase md:text-2xl">Random {tag} GIF</h1>

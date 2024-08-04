@@ -3,8 +3,8 @@ import useGif from "../hooks/useGif";
 function Random(){
     const {gif,loading,fetchData} = useGif();
     return (
-        <div className="w-1/2  bg-green-400 border border-black rounded-lg flex flex-col items-center gap-y-5 mt-[15px]">
-            <h1 
+        <div className="flex flex-col items-center justify-center w-full gap-4 py-4 overflow-hidden bg-green-400 border-2 border-gray-500 lg:w-1/2 aspect-auto rounded-2xl">
+            <h1  
             className="text-2xl font-bold underline uppercase">
                 A Random Gif
             </h1>
