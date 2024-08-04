@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import Tag from './components/Tag';
+import Random from './components/Random';
 import './App.css';
-
+import axios from "axios";
+// REACT_APP_GIPHY_API_KEY='kC0kZcGTTNZITKMQPLaxGwHeGpwYMn45'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="relative flex flex-col items-center w-full h-screen overflow-x-hidden background">
+      <h1 className="bg-white text-4xl absolute text-center mt-[40px] w-11/12 rounded-lg px-10 py-2 font-bold">RANDOM GIFS</h1>
+      <div className="flex flex-col items-center w-full gap-y-10 mt-[135px]">
+        <Random/>
+        <Tag/>
+      </div>
+      
     </div>
   );
 }
